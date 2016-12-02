@@ -1,0 +1,63 @@
+/*
+Theme Name: twentyfifteen-child
+Description: Theme enfant de twentyfifteen
+Author: Webforce3
+Author URI: 
+Template: twentyfifteen 
+Version: 1
+*/
+
+body {
+	background: linear-gradient(135deg, #ff78eb, #87ec65);
+	color: aqua;
+	font-family: "Comic Sans MS", "Comic Sans", cursive !important;
+}
+
+.entry-content {
+	/*border-radius: 50%;*/
+	background-color: #ff00d7;
+	border: solid 50px purple;
+	box-shadow: 250px 250px 250px aqua;
+
+}
+
+#sidebar {
+	background-color: #9dfbee;
+
+}
+
+#sidebar:hover {
+	background-color: #00ff1f;
+	position: relative;
+	left: 700px;
+	z-index: 100;
+	transform: rotate(-180deg);
+	
+}
+
+.entry-header {
+	background-color: yellow;
+}
+
+.entry-header:hover {
+	background-color: #00ff1f;
+		position: relative;
+	top: 250px;
+	left: 500px;
+	z-index: 100;
+	transform: rotate(-45deg);
+	
+}
+
+.entry-content:hover {
+	border-radius: 50%;
+	background-color: #00ff1f;
+		position: relative;
+	z-index: 100;
+	transform: rotate(-45deg);
+	
+}
+
+#post-15 {
+	background-color: #ffbf00;
+}
